@@ -1,0 +1,23 @@
+C:\Users\Student\Downloads\PROG 6212-PART 1- Sanelise Mboniswa (1)\docs\src\RaceDay\RaceDay.Contracts\bin\Debug\net8.0\RaceDay.Contracts.deps.json
+C:\Users\Student\Downloads\PROG 6212-PART 1- Sanelise Mboniswa (1)\docs\src\RaceDay\RaceDay.Contracts\bin\Debug\net8.0\RaceDay.Contracts.dll
+C:\Users\Student\Downloads\PROG 6212-PART 1- Sanelise Mboniswa (1)\docs\src\RaceDay\RaceDay.Contracts\bin\Debug\net8.0\RaceDay.Contracts.pdb
+C:\Users\Student\Downloads\PROG 6212-PART 1- Sanelise Mboniswa (1)\docs\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Downloads\PROG 6212-PART 1- Sanelise Mboniswa (1)\docs\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.AssemblyInfoInputs.cache
+C:\Users\Student\Downloads\PROG 6212-PART 1- Sanelise Mboniswa (1)\docs\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.AssemblyInfo.cs
+C:\Users\Student\Downloads\PROG 6212-PART 1- Sanelise Mboniswa (1)\docs\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Student\Downloads\PROG 6212-PART 1- Sanelise Mboniswa (1)\docs\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.dll
+C:\Users\Student\Downloads\PROG 6212-PART 1- Sanelise Mboniswa (1)\docs\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\refint\RaceDay.Contracts.dll
+C:\Users\Student\Downloads\PROG 6212-PART 1- Sanelise Mboniswa (1)\docs\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.pdb
+C:\Users\Student\Downloads\PROG 6212-PART 1- Sanelise Mboniswa (1)\docs\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\ref\RaceDay.Contracts.dll
+C:\Users\Student\OneDrive - ADvTECH Ltd\Pictures\Screenshots\SQL Server Management Studio 22\github\.github\prog6212-part 2-Sanelise Mboniswa\src\RaceDay\RaceDay.Contracts\bin\Debug\net8.0\RaceDay.Contracts.deps.json
+C:\Users\Student\OneDrive - ADvTECH Ltd\Pictures\Screenshots\SQL Server Management Studio 22\github\.github\prog6212-part 2-Sanelise Mboniswa\src\RaceDay\RaceDay.Contracts\bin\Debug\net8.0\RaceDay.Contracts.dll
+C:\Users\Student\OneDrive - ADvTECH Ltd\Pictures\Screenshots\SQL Server Management Studio 22\github\.github\prog6212-part 2-Sanelise Mboniswa\src\RaceDay\RaceDay.Contracts\bin\Debug\net8.0\RaceDay.Contracts.pdb
+C:\Users\Student\OneDrive - ADvTECH Ltd\Pictures\Screenshots\SQL Server Management Studio 22\github\.github\prog6212-part 2-Sanelise Mboniswa\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\OneDrive - ADvTECH Ltd\Pictures\Screenshots\SQL Server Management Studio 22\github\.github\prog6212-part 2-Sanelise Mboniswa\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.AssemblyInfoInputs.cache
+C:\Users\Student\OneDrive - ADvTECH Ltd\Pictures\Screenshots\SQL Server Management Studio 22\github\.github\prog6212-part 2-Sanelise Mboniswa\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.AssemblyInfo.cs
+C:\Users\Student\OneDrive - ADvTECH Ltd\Pictures\Screenshots\SQL Server Management Studio 22\github\.github\prog6212-part 2-Sanelise Mboniswa\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Student\OneDrive - ADvTECH Ltd\Pictures\Screenshots\SQL Server Management Studio 22\github\.github\prog6212-part 2-Sanelise Mboniswa\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.sourcelink.json
+C:\Users\Student\OneDrive - ADvTECH Ltd\Pictures\Screenshots\SQL Server Management Studio 22\github\.github\prog6212-part 2-Sanelise Mboniswa\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.dll
+C:\Users\Student\OneDrive - ADvTECH Ltd\Pictures\Screenshots\SQL Server Management Studio 22\github\.github\prog6212-part 2-Sanelise Mboniswa\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\refint\RaceDay.Contracts.dll
+C:\Users\Student\OneDrive - ADvTECH Ltd\Pictures\Screenshots\SQL Server Management Studio 22\github\.github\prog6212-part 2-Sanelise Mboniswa\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\RaceDay.Contracts.pdb
+C:\Users\Student\OneDrive - ADvTECH Ltd\Pictures\Screenshots\SQL Server Management Studio 22\github\.github\prog6212-part 2-Sanelise Mboniswa\src\RaceDay\RaceDay.Contracts\obj\Debug\net8.0\ref\RaceDay.Contracts.dll
