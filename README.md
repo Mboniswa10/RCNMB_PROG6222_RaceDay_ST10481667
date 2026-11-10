@@ -473,7 +473,7 @@ The following workflows were also verified:
 The project source code is maintained using Git and GitHub.
 
 **GitHub Repository:**  
-[PASTE YOUR GITHUB REPOSITORY LINK HERE]
+[https://github.com/Mboniswa10/RCNMB_PROG6222_RaceDay_ST10481667]
 
 The repository should contain the complete solution, including the API, MVC application, contracts, tests, SQL database scripts and README documentation.
 
