@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "Participant Dashboard";
+}
+
+<div class="container py-5">
+
+    <div class="p-5 mb-4 rounded-4 text-white"
+         style="background: linear-gradient(135deg, #071b3a, #145da0);">
+
+        <h1 class="fw-bold">RACEDAY</h1>
+
+        <h3>Welcome, Participant!</h3>
+
+        <p class="mb-0">
+            Your race. Your journey. Your achievement.
+        </p>
+
+        <p class="mt-2">
+            Logged in as: <strong>@ViewBag.UserEmail</strong>
+        </p>
+    </div>
+
+    <h3 class="fw-bold mb-4">Participant Dashboard</h3>
+
+    <div class="row g-4">
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body text-center p-4">
+                    <h1 class="text-primary">🏃</h1>
+                    <h5 class="fw-bold">Upcoming Events</h5>
+                    <p>Discover upcoming races and competitions.</p>
+
+                    <a asp-controller="Participant"
+                       asp-action="Events"
+                       class="btn btn-primary w-100">
+                        View Events
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body text-center p-4">
+                    <h1 class="text-success">📝</h1>
+                    <h5 class="fw-bold">My Enrolments</h5>
+                    <p>Check the events you have joined.</p>
+
+                    <a asp-controller="Participant"
+                       asp-action="MyEnrolments"
+                       class="btn btn-success w-100">
+                        My Enrolments
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body text-center p-4">
+                    <h1 class="text-warning">🏆</h1>
+                    <h5 class="fw-bold">Race Results</h5>
+                    <p>View your race performance and results.</p>
+
+                    <a asp-controller="Participant"
+                       asp-action="Results"
+                       class="btn btn-warning w-100">
+                        View Results
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body text-center p-4">
+                    <h1 class="text-info">👤</h1>
+                    <h5 class="fw-bold">My Profile</h5>
+                    <p>View and manage your account.</p>
+
+                    <a asp-controller="Participant"
+                       asp-action="Profile"
+                       class="btn btn-info text-white w-100">
+                        My Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card border-0 shadow-sm mt-5">
+        <div class="card-body p-4">
+            <h4 class="fw-bold">Keep Moving Forward!</h4>
+            <p class="mb-0">
+                Every race is an opportunity to improve,
+                challenge yourself and achieve something great.
+                Stay focused and enjoy your RaceDay journey!
+            </p>
+        </div>
+    </div>
+
+    <form asp-controller="Account"
+          asp-action="Logout"
+          method="post"
+          class="mt-4 text-end">
+
+        @Html.AntiForgeryToken()
+
+        <button type="submit" class="btn btn-danger">
+            Logout
+        </button>
+    </form>
+
+</div>

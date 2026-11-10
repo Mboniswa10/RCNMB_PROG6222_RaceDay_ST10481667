@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "My Enrolments";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">My Race Enrolments</h2>
+
+    <p class="text-muted">
+        View the races you have registered for and check your enrolment status.
+    </p>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title">My Enrolments</h5>
+
+            <p class="card-text">
+                Your registered events and enrolment details will appear here.
+            </p>
+
+            <div class="alert alert-info">
+                Enrolment information will be loaded from the RaceDay API
+                in the next development step.
+            </div>
+        </div>
+    </div>
+
+    <a asp-controller="Participant"
+       asp-action="Index"
+       class="btn btn-secondary mt-3">
+        Back to Dashboard
+    </a>
+</div>

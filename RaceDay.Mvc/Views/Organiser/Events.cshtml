@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Manage Events";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">Manage RaceDay Events</h2>
+
+    <p class="text-muted">
+        View and manage the running events you organise.
+    </p>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title">Event Management</h5>
+
+            <p>
+                Organiser event information will be displayed here.
+            </p>
+
+            <div class="alert alert-info">
+                Event management will be connected to the RaceDay API
+                in the next development step.
+            </div>
+
+            <a asp-controller="Organiser"
+               asp-action="CreateEvent"
+               class="btn btn-primary">
+                Create New Event
+            </a>
+        </div>
+    </div>
+
+    <a asp-controller="Organiser"
+       asp-action="Index"
+       class="btn btn-secondary mt-3">
+        Back to Dashboard
+    </a>
+</div>

@@ -1,0 +1,80 @@
+﻿@model List<RaceDay.Mvc.Models.EventViewModel>
+
+@{
+    ViewData["Title"] = "Available Events";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Available RaceDay Events</h2>
+
+    <p class="text-muted">
+        Browse available events and choose the race you would like to participate in.
+    </p>
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.ErrorMessage
+        </div>
+    }
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-info">
+            No events are currently available.
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.EventName</h5>
+
+                            <p class="card-text">
+                                <strong>Type:</strong> @item.EventType
+                            </p>
+
+                            <p class="card-text">
+                                <strong>Date:</strong> @item.EventDate
+                            </p>
+
+                            <p class="card-text">
+                                <strong>Start time:</strong> @item.StartTime
+                            </p>
+
+                            <p class="card-text">
+                                <strong>Venue:</strong> @item.Venue
+                            </p>
+
+                            <p class="card-text">
+                                <strong>City:</strong> @item.City
+                            </p>
+
+                            <p class="card-text">
+                                <strong>Distance:</strong> @item.DistanceKm km
+                            </p>
+
+                            <p class="card-text">
+                                <strong>Entry fee:</strong> R @item.EntryFee
+                            </p>
+
+                            <span class="badge bg-success">
+                                @item.Status
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    <a asp-controller="Participant"
+       asp-action="Index"
+       class="btn btn-secondary mt-3">
+        Back to Dashboard
+    </a>
+</div>

@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "My Race Results";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">My Race Results</h2>
+
+    <p class="text-muted">
+        View your race performance and completed event results.
+    </p>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title">Race Performance</h5>
+
+            <p class="card-text">
+                Your race results will be displayed here.
+            </p>
+
+            <div class="alert alert-info">
+                Results will be retrieved from the RaceDay Results API
+                in the next development step.
+            </div>
+        </div>
+    </div>
+
+    <a asp-controller="Participant"
+       asp-action="Index"
+       class="btn btn-secondary mt-3">
+        Back to Dashboard
+    </a>
+</div>

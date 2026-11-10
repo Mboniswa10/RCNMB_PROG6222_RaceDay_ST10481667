@@ -1,0 +1,131 @@
+﻿@{
+    ViewData["Title"] = "Organiser Dashboard";
+}
+
+<div class="container py-5">
+
+    <div class="p-5 mb-4 rounded-4 text-white"
+         style="background: linear-gradient(135deg, #071b3a, #145da0);">
+
+        <h1 class="fw-bold">RACEDAY</h1>
+
+        <h3>Welcome, Organiser!</h3>
+
+        <p class="mb-0">
+            Manage your events. Inspire participants. Deliver great races.
+        </p>
+
+        <p class="mt-2">
+            Logged in as: <strong>@ViewBag.UserEmail</strong>
+        </p>
+    </div>
+
+    <h3 class="fw-bold mb-4">Organiser Dashboard</h3>
+
+    <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body text-center p-4">
+                    <h1 class="text-primary">🏁</h1>
+                    <h5 class="fw-bold">Manage Events</h5>
+                    <p>Create, update and manage race events.</p>
+
+                    <a asp-controller="Organiser"
+                       asp-action="Events"
+                       class="btn btn-primary w-100">
+                        View Events
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body text-center p-4">
+                    <h1 class="text-success">➕</h1>
+                    <h5 class="fw-bold">Create Event</h5>
+                    <p>Add a new race event to RaceDay.</p>
+
+                    <a asp-controller="Organiser"
+                       asp-action="CreateEvent"
+                       class="btn btn-success w-100">
+                        Create Event
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body text-center p-4">
+                    <h1 class="text-info">📂</h1>
+                    <h5 class="fw-bold">Categories</h5>
+                    <p>Manage race event categories.</p>
+
+                    <a asp-controller="Organiser"
+                       asp-action="Categories"
+                       class="btn btn-info text-white w-100">
+                        Manage Categories
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body text-center p-4">
+                    <h1 class="text-warning">👥</h1>
+                    <h5 class="fw-bold">Enrolments</h5>
+                    <p>View participants enrolled in events.</p>
+
+                    <a asp-controller="Organiser"
+                       asp-action="Enrolments"
+                       class="btn btn-warning w-100">
+                        View Enrolments
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body text-center p-4">
+                    <h1 class="text-danger">🏆</h1>
+                    <h5 class="fw-bold">Race Results</h5>
+                    <p>Manage and review race results.</p>
+
+                    <a asp-controller="Organiser"
+                       asp-action="Results"
+                       class="btn btn-danger w-100">
+                        Manage Results
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card border-0 shadow-sm mt-5">
+        <div class="card-body p-4">
+            <h4 class="fw-bold">Lead Every Race to Success!</h4>
+            <p class="mb-0">
+                Use RaceDay to organise events, coordinate participants
+                and keep your race competitions running smoothly.
+            </p>
+        </div>
+    </div>
+
+    <form asp-controller="Account"
+          asp-action="Logout"
+          method="post"
+          class="mt-4 text-end">
+
+        @Html.AntiForgeryToken()
+
+        <button type="submit" class="btn btn-danger">
+            Logout
+        </button>
+    </form>
+
+</div>
